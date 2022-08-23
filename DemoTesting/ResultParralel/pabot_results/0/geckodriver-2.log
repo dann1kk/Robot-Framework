@@ -1,0 +1,15 @@
+1660056415506	geckodriver	INFO	Listening on 127.0.0.1:49156
+1660056418574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DANIEL~1.POG\\AppData\\Local\\Temp\\rust_mozprofileVWQbgm"
+1660056418927	Marionette	INFO	Marionette enabled
+1660056418931	Marionette	INFO	Listening on port 49246
+Read port: 49246
+1660056419016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DANIEL~1.POG\\AppData\\Local\\Temp\\rust_mozprofileVWQbgm\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.amazon.com/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=amdaris&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ASHWA-Vitamin-Gummy-Goli-Nutrition/dp/B094T2BZCK/ref=sr_1_1?keywords=amdaris&qid=1660056417&sr=8-1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+1660056429777	Marionette	INFO	Stopped listening on port 49246
+JavaScript warning: https://www.amazon.com/cart/smart-wagon?newItems=a87cf3e3-3db7-4228-9fdb-690ad02780b1,1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 595: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment

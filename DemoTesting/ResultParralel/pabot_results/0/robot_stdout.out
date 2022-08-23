@@ -1,0 +1,29 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.KeywordsTests :: Some Information about testing                        
+==============================================================================
+Test Case 1 - Make a search and assertions :: Perform a search and...   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\KeywordsTests.robot:10
+    T:  Test Case 1 - Make a search and assertions    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\KeywordsTests.robot:14
+      Assert search results    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\Resources\Keywords.robot:10
+      Wait Until Page Contains    results for "amdaris"
+______________________________________________________________________________
+| FAIL |
+Text 'results for "amdaris"' did not appear in 5 seconds.
+------------------------------------------------------------------------------
+Test Case 2 - Add an item to cart :: Check if item added to cart c... | PASS |
+------------------------------------------------------------------------------
+Suites.KeywordsTests :: Some Information about testing                | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ResultParralel\pabot_results\0\output.xml

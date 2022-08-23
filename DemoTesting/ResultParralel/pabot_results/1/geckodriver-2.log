@@ -1,0 +1,11 @@
+1660056420399	geckodriver	INFO	Listening on 127.0.0.1:49270
+1660056423420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DANIEL~1.POG\\AppData\\Local\\Temp\\rust_mozprofilePhBbEr"
+1660056423798	Marionette	INFO	Marionette enabled
+1660056423801	Marionette	INFO	Listening on port 49323
+Read port: 49323
+1660056424009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DANIEL~1.POG\\AppData\\Local\\Temp\\rust_mozprofilePhBbEr\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.amazon.com/ line 1852 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=amdaris line 3562 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660056430458	Marionette	INFO	Stopped listening on port 49323

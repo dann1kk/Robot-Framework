@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220822 15:56:39.768" rpa="false" schemaversion="3">
+<suite id="s1" name="ProceduralTests" source="C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests">
+<suite id="s1-s1" name="KeywordsTests" source="C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\KeywordsTests.robot">
+<test id="s1-s1-t1" name="Test Case 1 - Make a search and assertions" line="10">
+<kw name="Open Chrome browser" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.amazon.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220822 15:56:39.939" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com/'.</msg>
+<msg timestamp="20220822 15:57:02.165" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
+  (Session info: chrome=104.0.5112.101)
+</msg>
+<msg timestamp="20220822 15:57:02.166" level="FAIL">WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.101)
+</msg>
+<status status="FAIL" starttime="20220822 15:56:39.939" endtime="20220822 15:57:02.167"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220822 15:57:02.168" endtime="20220822 15:57:02.168"/>
+</kw>
+<status status="FAIL" starttime="20220822 15:56:39.939" endtime="20220822 15:57:02.168"/>
+</kw>
+<kw name="End Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220822 15:57:02.169" endtime="20220822 15:57:04.224"/>
+</kw>
+<status status="PASS" starttime="20220822 15:57:02.168" endtime="20220822 15:57:04.224"/>
+</kw>
+<doc>Perform a search and assert results</doc>
+<tag>Keywords</tag>
+<status status="FAIL" starttime="20220822 15:56:39.938" endtime="20220822 15:57:04.224">Setup failed:
+WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.101)
+</status>
+</test>
+<test id="s1-s1-t2" name="Test Case 2 - Add an item to cart" line="17">
+<kw name="Open Chrome browser" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.amazon.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220822 15:57:04.226" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com/'.</msg>
+<msg timestamp="20220822 15:57:17.929" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
+  (Session info: chrome=104.0.5112.101)
+</msg>
+<msg timestamp="20220822 15:57:17.930" level="FAIL">WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.101)
+</msg>
+<status status="FAIL" starttime="20220822 15:57:04.226" endtime="20220822 15:57:17.930"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220822 15:57:17.931" endtime="20220822 15:57:17.931"/>
+</kw>
+<status status="FAIL" starttime="20220822 15:57:04.225" endtime="20220822 15:57:17.931"/>
+</kw>
+<kw name="End Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220822 15:57:17.932" endtime="20220822 15:57:19.982"/>
+</kw>
+<status status="PASS" starttime="20220822 15:57:17.931" endtime="20220822 15:57:19.983"/>
+</kw>
+<doc>Check if item added to cart correctly</doc>
+<tag>Keywords</tag>
+<status status="FAIL" starttime="20220822 15:57:04.225" endtime="20220822 15:57:19.983">Setup failed:
+WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.101)
+</status>
+</test>
+<doc>Some Information about testing</doc>
+<status status="FAIL" starttime="20220822 15:56:39.793" endtime="20220822 15:57:19.984"/>
+</suite>
+<status status="FAIL" starttime="20220822 15:56:39.776" endtime="20220822 15:57:19.985"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">Keywords</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="ProceduralTests">ProceduralTests</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="KeywordsTests">ProceduralTests.KeywordsTests</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220822 15:57:02.165" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
+  (Session info: chrome=104.0.5112.101)
+</msg>
+<msg timestamp="20220822 15:57:17.929" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: chrome not reachable
+  (Session info: chrome=104.0.5112.101)
+</msg>
+</errors>
+</robot>

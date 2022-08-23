@@ -1,0 +1,48 @@
+==============================================================================
+ProceduralTests                                                               
+==============================================================================
+ProceduralTests.KeywordsTests :: Some Information about testing               
+==============================================================================
+Test Case 1 - Make a search and assertions :: Perform a search and...   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\KeywordsTests.robot:10
+    T:  Test Case 1 - Make a search and assertions    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\KeywordsTests.robot:6
+      Open Chrome browser    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\Resources\Common.robot:12
+      Open Browser    https://www.amazon.com/    chrome
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.101)
+------------------------------------------------------------------------------
+Test Case 2 - Add an item to cart :: Check if item added to cart c...   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\KeywordsTests.robot:17
+    T:  Test Case 2 - Add an item to cart    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\KeywordsTests.robot:6
+      Open Chrome browser    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\Resources\Common.robot:12
+      Open Browser    https://www.amazon.com/    chrome
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=104.0.5112.101)
+------------------------------------------------------------------------------
+ProceduralTests.KeywordsTests :: Some Information about testing       | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+ProceduralTests                                                       | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ResultsParralel\pabot_results\0\output.xml

@@ -1,0 +1,19 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.SimpleTestCases :: Some Information about demo testing                 
+==============================================================================
+Open the website in explorer :: Running website on Internet Explorer  Browser is opened
+| PASS |
+------------------------------------------------------------------------------
+Open the website in firefox :: Running website on Firefox             | PASS |
+------------------------------------------------------------------------------
+Assertions with locators on page :: Making assertions based on the... | PASS |
+------------------------------------------------------------------------------
+Suites.SimpleTestCases :: Some Information about demo testing         | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ResultParralel\pabot_results\1\output.xml

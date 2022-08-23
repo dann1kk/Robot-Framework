@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220822 15:56:39.768" rpa="false" schemaversion="3">
+<suite id="s1" name="ProceduralTests" source="C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests">
+<suite id="s1-s1" name="SimpleTestCases" source="C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ProceduralTests\SimpleTestCases.robot">
+<test id="s1-s1-t1" name="Open the website in explorer" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.amazon.com/</arg>
+<arg>ie</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220822 15:56:39.935" level="INFO">Opening browser 'ie' to base url 'https://www.amazon.com/'.</msg>
+<status status="PASS" starttime="20220822 15:56:39.934" endtime="20220822 15:56:43.420"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220822 15:56:46.424" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220822 15:56:43.420" endtime="20220822 15:56:46.424"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220822 15:56:46.424" endtime="20220822 15:56:49.482"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Browser is opened</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220822 15:56:49.482" level="INFO">Browser is opened</msg>
+<status status="PASS" starttime="20220822 15:56:49.482" endtime="20220822 15:56:49.483"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Browser is opened</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220822 15:56:49.483" endtime="20220822 15:56:49.483"/>
+</kw>
+<doc>Running website on Internet Explorer</doc>
+<tag>Browsers</tag>
+<status status="PASS" starttime="20220822 15:56:39.934" endtime="20220822 15:56:49.483"/>
+</test>
+<test id="s1-s1-t2" name="Open the website in firefox" line="18">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.amazon.com/</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220822 15:56:49.484" level="INFO">Opening browser 'firefox' to base url 'https://www.amazon.com/'.</msg>
+<msg timestamp="20220822 15:56:49.485" level="INFO">Firefox driver log is always forced to to: C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ResultsParralel\pabot_results\1\geckodriver-1.log</msg>
+<status status="PASS" starttime="20220822 15:56:49.484" endtime="20220822 15:56:55.436"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220822 15:56:58.446" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220822 15:56:55.436" endtime="20220822 15:56:58.446"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220822 15:56:58.446" endtime="20220822 15:56:59.088"/>
+</kw>
+<doc>Running website on Firefox</doc>
+<tag>Browsers</tag>
+<status status="PASS" starttime="20220822 15:56:49.483" endtime="20220822 15:56:59.088"/>
+</test>
+<test id="s1-s1-t3" name="Assertions with locators on page" line="24">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.amazon.com/</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220822 15:56:59.089" level="INFO">Opening browser 'firefox' to base url 'https://www.amazon.com/'.</msg>
+<msg timestamp="20220822 15:56:59.090" level="INFO">Firefox driver log is always forced to to: C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\ResultsParralel\pabot_results\1\geckodriver-2.log</msg>
+<status status="PASS" starttime="20220822 15:56:59.089" endtime="20220822 15:57:05.180"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>5 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220822 15:57:05.181" endtime="20220822 15:57:05.182"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>5 seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220822 15:57:05.182" endtime="20220822 15:57:10.194"/>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<arg>5 seconds</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" starttime="20220822 15:57:10.194" endtime="20220822 15:57:15.211"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Moldova, Republic of</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20220822 15:57:15.211" endtime="20220822 15:57:20.235"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=twotabsearchtextbox</arg>
+<arg>amdaris</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220822 15:57:20.235" level="INFO">Typing text 'amdaris' into text field 'id=twotabsearchtextbox'.</msg>
+<status status="PASS" starttime="20220822 15:57:20.235" endtime="20220822 15:57:35.302"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id=nav-search-submit-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220822 15:57:35.302" level="INFO">Clicking button 'id=nav-search-submit-button'.</msg>
+<status status="PASS" starttime="20220822 15:57:35.302" endtime="20220822 15:57:53.544"/>
+</kw>
+<kw name="Capture Element Screenshot" library="SeleniumLibrary">
+<arg>id=nav-search-submit-button</arg>
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<msg timestamp="20220822 15:58:03.556" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-element-screenshot-1.png"&gt;&lt;img src="selenium-element-screenshot-1.png" width="400px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220822 15:57:53.544" endtime="20220822 15:58:03.556"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<arg>C:\Users\daniel.pogorevici\PycharmProjects\DemoTesting\Results\Capture1.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220822 15:58:08.655" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Usersdaniel.pogoreviciPycharmProjectsDemoTestingResultsCapture1.png"&gt;&lt;img src="Usersdaniel.pogoreviciPycharmProjectsDemoTestingResultsCapture1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220822 15:58:03.556" endtime="20220822 15:58:08.655"/>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<msg timestamp="20220822 15:58:08.655" level="FAIL">Keyword 'SeleniumLibrary.Mouse Down' expected 1 argument, got 0.</msg>
+<status status="FAIL" starttime="20220822 15:58:08.655" endtime="20220822 15:58:08.655"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<doc>Double clicks the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220822 15:58:08.656" endtime="20220822 15:58:08.656"/>
+</kw>
+<kw name="Mouse Up" library="SeleniumLibrary">
+<doc>Simulates releasing the left mouse button on the element ``locator``.</doc>
+<status status="NOT RUN" starttime="20220822 15:58:08.656" endtime="20220822 15:58:08.656"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="NOT RUN" starttime="20220822 15:58:08.656" endtime="20220822 15:58:08.656"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>results for "amdaris</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20220822 15:58:08.656" endtime="20220822 15:58:08.656"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220822 15:58:08.656" endtime="20220822 15:58:08.656"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Some text</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220822 15:58:08.656" endtime="20220822 15:58:08.656"/>
+</kw>
+<doc>Making assertions based on the search</doc>
+<tag>Assertions</tag>
+<status status="FAIL" starttime="20220822 15:56:59.088" endtime="20220822 15:58:08.657">Keyword 'SeleniumLibrary.Mouse Down' expected 1 argument, got 0.</status>
+</test>
+<doc>Some Information about demo testing</doc>
+<status status="FAIL" starttime="20220822 15:56:39.793" endtime="20220822 15:58:08.657"/>
+</suite>
+<status status="FAIL" starttime="20220822 15:56:39.776" endtime="20220822 15:58:08.658"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Assertions</stat>
+<stat pass="2" fail="0" skip="0">Browsers</stat>
+</tag>
+<suite>
+<stat pass="2" fail="1" skip="0" id="s1" name="ProceduralTests">ProceduralTests</stat>
+<stat pass="2" fail="1" skip="0" id="s1-s1" name="SimpleTestCases">ProceduralTests.SimpleTestCases</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

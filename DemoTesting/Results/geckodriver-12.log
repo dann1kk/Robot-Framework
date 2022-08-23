@@ -1,0 +1,13 @@
+1660840929570	geckodriver	INFO	Listening on 127.0.0.1:53021
+1660840932614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--incognito" "--disable-popup-blocking" "--ignore-certificate-errors" "-no-remote" "-profile" "C:\\Users\\DANIEL~1.POG\\AppData\\Local\\Temp\\rust_mozprofileix4IUf"
+1660840932937	Marionette	INFO	Marionette enabled
+1660840932940	Marionette	INFO	Listening on port 53033
+Read port: 53033
+1660840933012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DANIEL~1.POG\\AppData\\Local\\Temp\\rust_mozprofileix4IUf\\search.json.mozlz4", (void 0)))
+JavaScript warning: https://www.amazon.com/ line 2132 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=amdaris&ref=nb_sb_noss line 3290 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/BIC-Wite-Out-Correct-Correction-10-Count/dp/B002MGJZRE/ref=sr_1_1?keywords=amdaris&qid=1660840928&sr=8-1 line 8093 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660840946785	Marionette	INFO	Stopped listening on port 53033
+[Parent 15808, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

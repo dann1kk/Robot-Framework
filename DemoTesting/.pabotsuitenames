@@ -1,0 +1,6 @@
+datasources:ebd1bb8fa3e9df3d884b92ee306d8b50a8a8368f
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:86ff7c9495dd29d10bf43ba78f62e5d33a9f6611
+--suite ProceduralTests.KeywordsTests
+--suite ProceduralTests.SimpleTestCases

@@ -1,0 +1,17 @@
+{
+  "MainPage": {
+  "search_field": "id=twotabsearchtextbox",
+  "click_search": "id=nav-search-submit-button",
+  "all_categories": "xpath=//*[@id=\"nav-hamburger-menu\"]",
+    "cart": "id=nav-cart-count",
+    "return_orders": "id=nav-orders"
+ },
+  "ProductsPage": {
+    "product": "xpath=/html/body/div[1]/div[2]/div[1]/div[1]/div/span[3]/div[2]/div[2]",
+    "add-cart": "id=add-to-cart-button",
+    "open_cart": "id=nav-cart-count"
+  },
+  "TodayDealsPage": {
+    "product": "xpath=/html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[1]"
+  }
+}
